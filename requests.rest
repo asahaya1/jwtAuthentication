@@ -1,23 +1,7 @@
 GET http://localhost:3000/posts
+Authorization: Bearerey
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiS3lsZSIsImlhdCI6MTY4ODQ1OTkyOH0.Enc6lhRV6PnbKXRpIzQcg_0fF6Kl2osuLasw3gEo6kY
 
-
-###
-
-DELETE http://localhost:4000/logout
-Content-Type: application/json
-
-{
-  "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNjg2NTA1NTQ0fQ.OAFFhyESqQIoeL1VO7UqjBE_BzYBwLG05FOgZdsU9wc"
-}
-
-###
-
-POST http://localhost:4000/token
-Content-Type: application/json
-
-{
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNjg2NTA1NTQ0fQ.OAFFhyESqQIoeL1VO7UqjBE_BzYBwLG05FOgZdsU9wc"
-}
 ###
 
 POST http://localhost:3000/login
